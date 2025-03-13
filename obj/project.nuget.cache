@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uK8bCTE4oxo=",
+  "dgSpecHash": "N4p5yromT+k=",
   "success": true,
-  "projectFilePath": "/Users/dima/Desktop/hw/hw.csproj",
+  "projectFilePath": "/Users/dima/Desktop/ASP.NET/11.03.2025/hw/hw.csproj",
   "expectedPackageFiles": [
     "/Users/dima/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "/Users/dima/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.0/microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
