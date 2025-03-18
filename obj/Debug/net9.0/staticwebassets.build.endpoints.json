@@ -599,6 +599,334 @@
       ]
     },
     {
+      "Route": "files/IMG_4655.HEIC",
+      "AssetFile": "files/IMG_4655.HEIC",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2814619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ikWW0diQtNuQknVD4RAFi1VBHOxQncwA/4bCJbjCq3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 16:14:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ikWW0diQtNuQknVD4RAFi1VBHOxQncwA/4bCJbjCq3M="
+        }
+      ]
+    },
+    {
+      "Route": "files/IMG_4655.qb5u4c9yik.HEIC",
+      "AssetFile": "files/IMG_4655.HEIC",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2814619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ikWW0diQtNuQknVD4RAFi1VBHOxQncwA/4bCJbjCq3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 16:14:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qb5u4c9yik"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ikWW0diQtNuQknVD4RAFi1VBHOxQncwA/4bCJbjCq3M="
+        },
+        {
+          "Name": "label",
+          "Value": "files/IMG_4655.HEIC"
+        }
+      ]
+    },
+    {
+      "Route": "files/IMG_6550.5sni2lfxyy.jpg",
+      "AssetFile": "files/IMG_6550.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5S7ysrJUWwss+ibafoIOABIu41ctqW5H5pp1jjPdFiI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 18:24:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5sni2lfxyy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5S7ysrJUWwss+ibafoIOABIu41ctqW5H5pp1jjPdFiI="
+        },
+        {
+          "Name": "label",
+          "Value": "files/IMG_6550.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "files/IMG_6550.jpg",
+      "AssetFile": "files/IMG_6550.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5S7ysrJUWwss+ibafoIOABIu41ctqW5H5pp1jjPdFiI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 18:24:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5S7ysrJUWwss+ibafoIOABIu41ctqW5H5pp1jjPdFiI="
+        }
+      ]
+    },
+    {
+      "Route": "files/junior-cybersecurity-analyst-career-path.1.2h7xeuw83m.png",
+      "AssetFile": "files/junior-cybersecurity-analyst-career-path.1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6lUTZE3AGpDQE2db521844iP477YKYCzLQkoKsry5P8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 16:12:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2h7xeuw83m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6lUTZE3AGpDQE2db521844iP477YKYCzLQkoKsry5P8="
+        },
+        {
+          "Name": "label",
+          "Value": "files/junior-cybersecurity-analyst-career-path.1.png"
+        }
+      ]
+    },
+    {
+      "Route": "files/junior-cybersecurity-analyst-career-path.1.png",
+      "AssetFile": "files/junior-cybersecurity-analyst-career-path.1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6lUTZE3AGpDQE2db521844iP477YKYCzLQkoKsry5P8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 16:12:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6lUTZE3AGpDQE2db521844iP477YKYCzLQkoKsry5P8="
+        }
+      ]
+    },
+    {
+      "Route": "files/Капри.jpg",
+      "AssetFile": "files/Капри.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3858629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nvfTrQIp1gV8PPfFk+mhvVtHnIAcMrsE7FmjysnkPgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:29:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nvfTrQIp1gV8PPfFk+mhvVtHnIAcMrsE7FmjysnkPgU="
+        }
+      ]
+    },
+    {
+      "Route": "files/Капри.qh6baqdtmc.jpg",
+      "AssetFile": "files/Капри.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3858629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nvfTrQIp1gV8PPfFk+mhvVtHnIAcMrsE7FmjysnkPgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:29:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qh6baqdtmc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nvfTrQIp1gV8PPfFk+mhvVtHnIAcMrsE7FmjysnkPgU="
+        },
+        {
+          "Name": "label",
+          "Value": "files/Капри.jpg"
+        }
+      ]
+    },
+    {
       "Route": "hw.qj3je9tm66.styles.css",
       "AssetFile": "hw.styles.css.gz",
       "Selectors": [

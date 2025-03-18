@@ -72,7 +72,7 @@
                 @Html.DisplayFor(modelItem => item.Director)
             </td>
              <td>
-                <img src="@Url.Content(item.Poster)" alt="Movie Poster" width="100" height="150" />
+                <img src="@Url.Content(item.Poster)" alt=@item.Name width="100" height="150" />
             </td>
              <td>
                 @Html.DisplayFor(modelItem => item.Description)

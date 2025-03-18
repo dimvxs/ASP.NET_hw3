@@ -721,11 +721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dima/Desktop/ASP.NET/11.03.2025/hw/hw.csproj",
+      "projectUniqueName": "/Users/dima/Desktop/17.03.2025/hw/hw.csproj",
       "projectName": "hw",
-      "projectPath": "/Users/dima/Desktop/ASP.NET/11.03.2025/hw/hw.csproj",
+      "projectPath": "/Users/dima/Desktop/17.03.2025/hw/hw.csproj",
       "packagesPath": "/Users/dima/.nuget/packages/",
-      "outputPath": "/Users/dima/Desktop/ASP.NET/11.03.2025/hw/obj/",
+      "outputPath": "/Users/dima/Desktop/17.03.2025/hw/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dima/.nuget/NuGet/NuGet.Config"

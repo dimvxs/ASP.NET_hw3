@@ -1,0 +1,13 @@
+@model hw.Models.Movie;
+@{
+    ViewData["Title"] = "AddFile";
+}
+<h3>Добавить постер для фильма @Model.Name</h3>
+
+
+
+<form asp-action="AddFile" asp-controller="Movies" method="post" enctype="multipart/form-data">
+    <input type="file" name="uploadedFile" /><br>
+     <input type="hidden" name="id" value="@Model.Id" /> 
+    <input type="submit" value="Загрузить" />
+</form>
