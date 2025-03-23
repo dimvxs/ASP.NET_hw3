@@ -12,6 +12,7 @@
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />
@@ -36,6 +37,7 @@
                 <label asp-for="Poster" class="control-label"></label>
                 <input asp-for="Poster" class="form-control" />
                 <span asp-validation-for="Poster" class="text-danger"></span>
+                <a asp-action="AddFilew">Загрузить собственный постер</a>
             </div>
              <div class="form-group">
                 <label asp-for="Description" class="control-label"></label>

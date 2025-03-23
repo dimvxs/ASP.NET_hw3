@@ -24,16 +24,69 @@ namespace hw.Controllers
                  return View(await context.Movies.ToListAsync());
         }
 
+[AcceptVerbs("Get", "Post")]
+        public async Task<IActionResult> CheckName(string name){
+          bool movies = await context.Movies.AnyAsync(m => m.Name == name);
+          return Json(!movies);
+        }
+
         public async Task<IActionResult> AddFile(int? id){
-              if(id == null){
+              if(id == null)
+              {
                 return NotFound();
             }
             var movie = await context.Movies.FirstOrDefaultAsync(m => m.Id == id);
-            if(movie == null){
+            if(movie == null)
+            {
                 return NotFound();
             }
             return View(movie);
         }
+
+        public async Task<IActionResult> AddFilew(){
+          return View();
+        }
+
+        [HttpPost]
+public async Task<IActionResult> AddFilew(IFormFile uploadedFile){
+  
+    
+    if(uploadedFile != null)
+    {
+        // Получаем путь к wwwroot
+        string webRootPath = appEnvironment.WebRootPath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+      
+        // Указываем папку, куда сохранять файлы
+        string folderPath = Path.Combine(webRootPath, "files");
+
+        if(!Directory.Exists(folderPath))
+        {
+            Directory.CreateDirectory(folderPath);
+        }
+
+        string filePath = Path.Combine(folderPath, uploadedFile.FileName);
+
+        using(var fileStream = new FileStream(filePath, FileMode.Create))
+        {
+            await uploadedFile.CopyToAsync(fileStream);
+        }
+
+  
+        
+      
+        FileModel file = new FileModel { Name = uploadedFile.FileName, Path = "/files/" + uploadedFile.FileName };
+        context.Files.Add(file);  
+        await context.SaveChangesAsync();
+        HttpContext.Session.SetString("FilePath", file.Path);
+
+        return RedirectToAction("Create");
+      
+        
+    
+
+    }
+    return RedirectToAction(nameof(GetMovies));
+}
 
 [HttpPost]
 public async Task<IActionResult> AddFile(IFormFile uploadedFile, int id){
@@ -75,7 +128,7 @@ public async Task<IActionResult> AddFile(IFormFile uploadedFile, int id){
     
 
     }
-    return RedirectToAction(nameof(GetMovies));
+    return RedirectToAction(nameof(Create));
 }
 
 
@@ -92,17 +145,38 @@ public async Task<IActionResult> AddFile(IFormFile uploadedFile, int id){
         }
 
         public IActionResult Create(){
-            return View();
+
+             var movie = new Movie();
+
+    if (HttpContext.Session.GetString("FilePath") != null)
+    {
+        movie.Poster = HttpContext.Session.GetString("FilePath");
+    }
+    return View(movie);
+
         }
 
 [HttpPost]
 [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id, Name, Director, Genre, Year, Poster, Description")] Movie movie)
         {
+        
+
             if(ModelState.IsValid)
             {
+        //         if (HttpContext.Session.GetString("FilePath") != null)
+        //     {
+        // movie.Poster = HttpContext.Session.GetString("FilePath");
+        //     }
+
+         if (HttpContext.Session.GetString("FilePath") != null)
+            {
+        movie.Poster = HttpContext.Session.GetString("FilePath");
+            }
+
                 context.Add(movie);
                 await context.SaveChangesAsync();
+                HttpContext.Session.Remove("FilePath");
                 return RedirectToAction(nameof(GetMovies));
             }
             return View(movie);
@@ -123,7 +197,7 @@ public async Task<IActionResult> AddFile(IFormFile uploadedFile, int id){
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id, Name, Director, Genre, Year, Poster, Description")] Movie movie) {
+        public async Task<IActionResult> Edit([Bind("Id, Name, Director, Genre, Year, Poster, Description")] Movie movie) {
 if(ModelState.IsValid){
     try{
     context.Update(movie);

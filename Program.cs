@@ -10,11 +10,14 @@ builder.Services.AddDbContext<MovieContext>(options =>
     options.UseMySql(connection, ServerVersion.AutoDetect(connection)));
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
+
 
 var app = builder.Build();
 
 
-
+app.UseSession();
 app.UseStaticFiles();
 
 

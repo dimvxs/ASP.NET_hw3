@@ -522,3 +522,4 @@
 /Users/dima/Desktop/17.03.2025/hw/obj/Debug/net9.0/hw.pdb
 /Users/dima/Desktop/17.03.2025/hw/obj/Debug/net9.0/hw.genruntimeconfig.cache
 /Users/dima/Desktop/17.03.2025/hw/obj/Debug/net9.0/ref/hw.dll
+/Users/dima/Desktop/17.03.2025/hw/obj/Debug/net9.0/compressed/cjile2h6uh-61n19gt1b8.gz

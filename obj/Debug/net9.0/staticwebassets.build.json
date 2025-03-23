@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OF/I0yC834Vci/wx/5psE6/oBbi60wjAWlFAJyeNdFo=",
+  "Hash": "//L9NDp5Y2asaUT4zWJP9yzvsB/XEtw1jxAMVL+tHMw=",
   "Source": "hw",
   "BasePath": "_content/hw",
   "Mode": "Default",
@@ -456,6 +456,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Identity": "/Users/dima/Desktop/17.03.2025/hw/obj/Debug/net9.0/compressed/cjile2h6uh-61n19gt1b8.gz",
+      "SourceId": "hw",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dima/Desktop/17.03.2025/hw/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/hw",
+      "RelativePath": "files/favicon#[.{fingerprint=61n19gt1b8}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/favicon.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jefwejb9ld",
+      "Integrity": "+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/favicon.ico"
     },
     {
       "Identity": "/Users/dima/Desktop/17.03.2025/hw/obj/Debug/net9.0/compressed/e6fmcitlvc-nvvlpmu67g.gz",
@@ -1466,6 +1487,48 @@
       "OriginalItemSpec": "wwwroot/files/Капри.jpg"
     },
     {
+      "Identity": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/deadpool.png",
+      "SourceId": "hw",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/",
+      "BasePath": "_content/hw",
+      "RelativePath": "files/deadpool#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e3nzfqjcs7",
+      "Integrity": "qqaPPzeoiVR+OK18R0eEgq1I4UePEjWhJ3GhLzGX5HA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/files/deadpool.png"
+    },
+    {
+      "Identity": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/favicon.ico",
+      "SourceId": "hw",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/",
+      "BasePath": "_content/hw",
+      "RelativePath": "files/favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/files/favicon.ico"
+    },
+    {
       "Identity": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/IMG_4655.HEIC",
       "SourceId": "hw",
       "SourceType": "Discovered",
@@ -1506,6 +1569,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/files/IMG_6550.jpg"
+    },
+    {
+      "Identity": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/IMG_7368.heic",
+      "SourceId": "hw",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/",
+      "BasePath": "_content/hw",
+      "RelativePath": "files/IMG_7368#[.{fingerprint}]?.heic",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4fu3i2xggg",
+      "Integrity": "wGYqP3QU5yYZlJOrMFIExMeE6XZ4jnABh0PT2qJQNvo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/files/IMG_7368.heic"
     },
     {
       "Identity": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/junior-cybersecurity-analyst-career-path.1.png",
@@ -3640,7 +3724,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 15:29:56 GMT"
+          "Value": "Sat, 22 Mar 2025 14:23:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3677,7 +3761,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 15:29:56 GMT"
+          "Value": "Sat, 22 Mar 2025 14:23:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3696,6 +3780,386 @@
         {
           "Name": "integrity",
           "Value": "sha256-nvfTrQIp1gV8PPfFk+mhvVtHnIAcMrsE7FmjysnkPgU="
+        }
+      ]
+    },
+    {
+      "Route": "files/deadpool.e3nzfqjcs7.png",
+      "AssetFile": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/deadpool.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qqaPPzeoiVR+OK18R0eEgq1I4UePEjWhJ3GhLzGX5HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 18:27:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e3nzfqjcs7"
+        },
+        {
+          "Name": "label",
+          "Value": "files/deadpool.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qqaPPzeoiVR+OK18R0eEgq1I4UePEjWhJ3GhLzGX5HA="
+        }
+      ]
+    },
+    {
+      "Route": "files/deadpool.png",
+      "AssetFile": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/deadpool.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qqaPPzeoiVR+OK18R0eEgq1I4UePEjWhJ3GhLzGX5HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 18:27:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qqaPPzeoiVR+OK18R0eEgq1I4UePEjWhJ3GhLzGX5HA="
+        }
+      ]
+    },
+    {
+      "Route": "files/favicon.61n19gt1b8.ico",
+      "AssetFile": "/Users/dima/Desktop/17.03.2025/hw/obj/Debug/net9.0/compressed/cjile2h6uh-61n19gt1b8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000405022276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 12:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "files/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "files/favicon.61n19gt1b8.ico",
+      "AssetFile": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 12:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "files/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "files/favicon.61n19gt1b8.ico.gz",
+      "AssetFile": "/Users/dima/Desktop/17.03.2025/hw/obj/Debug/net9.0/compressed/cjile2h6uh-61n19gt1b8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 12:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "files/favicon.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4="
+        }
+      ]
+    },
+    {
+      "Route": "files/favicon.ico",
+      "AssetFile": "/Users/dima/Desktop/17.03.2025/hw/obj/Debug/net9.0/compressed/cjile2h6uh-61n19gt1b8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000405022276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 12:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "files/favicon.ico",
+      "AssetFile": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 12:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "files/favicon.ico.gz",
+      "AssetFile": "/Users/dima/Desktop/17.03.2025/hw/obj/Debug/net9.0/compressed/cjile2h6uh-61n19gt1b8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 12:30:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4="
         }
       ]
     },
@@ -3722,7 +4186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 16:14:51 GMT"
+          "Value": "Sat, 22 Mar 2025 14:16:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3759,7 +4223,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 16:14:51 GMT"
+          "Value": "Sat, 22 Mar 2025 14:16:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3804,7 +4268,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 18:24:35 GMT"
+          "Value": "Sat, 22 Mar 2025 16:59:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3849,7 +4313,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 18:24:35 GMT"
+          "Value": "Sat, 22 Mar 2025 16:59:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3860,6 +4324,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-5S7ysrJUWwss+ibafoIOABIu41ctqW5H5pp1jjPdFiI="
+        }
+      ]
+    },
+    {
+      "Route": "files/IMG_7368.4fu3i2xggg.heic",
+      "AssetFile": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/IMG_7368.heic",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1298274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wGYqP3QU5yYZlJOrMFIExMeE6XZ4jnABh0PT2qJQNvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 20:33:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4fu3i2xggg"
+        },
+        {
+          "Name": "label",
+          "Value": "files/IMG_7368.heic"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wGYqP3QU5yYZlJOrMFIExMeE6XZ4jnABh0PT2qJQNvo="
+        }
+      ]
+    },
+    {
+      "Route": "files/IMG_7368.heic",
+      "AssetFile": "/Users/dima/Desktop/17.03.2025/hw/wwwroot/files/IMG_7368.heic",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1298274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wGYqP3QU5yYZlJOrMFIExMeE6XZ4jnABh0PT2qJQNvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 20:33:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wGYqP3QU5yYZlJOrMFIExMeE6XZ4jnABh0PT2qJQNvo="
         }
       ]
     },
